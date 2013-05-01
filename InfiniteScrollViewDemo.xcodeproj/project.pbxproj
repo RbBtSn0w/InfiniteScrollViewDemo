@@ -19,6 +19,7 @@
 		80A86A9D17314C2C000F70DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A86A9C17314C2C000F70DA /* ViewController.m */; };
 		80A86AA017314C2C000F70DA /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A86A9E17314C2C000F70DA /* ViewController_iPhone.xib */; };
 		80A86AA317314C2C000F70DA /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80A86AA117314C2C000F70DA /* ViewController_iPad.xib */; };
+		80A86AAB17314CAC000F70DA /* InfiniteScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A86AAA17314CAC000F70DA /* InfiniteScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		80A86A9C17314C2C000F70DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80A86A9F17314C2C000F70DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		80A86AA217314C2C000F70DA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		80A86AA917314CAC000F70DA /* InfiniteScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteScrollView.h; sourceTree = "<group>"; };
+		80A86AAA17314CAC000F70DA /* InfiniteScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				80A86A9317314C2C000F70DA /* AppDelegate.m */,
 				80A86A9B17314C2C000F70DA /* ViewController.h */,
 				80A86A9C17314C2C000F70DA /* ViewController.m */,
+				80A86AA917314CAC000F70DA /* InfiniteScrollView.h */,
+				80A86AAA17314CAC000F70DA /* InfiniteScrollView.m */,
 				80A86A9E17314C2C000F70DA /* ViewController_iPhone.xib */,
 				80A86AA117314C2C000F70DA /* ViewController_iPad.xib */,
 				80A86A8A17314C2C000F70DA /* Supporting Files */,
@@ -180,6 +185,7 @@
 				80A86A9017314C2C000F70DA /* main.m in Sources */,
 				80A86A9417314C2C000F70DA /* AppDelegate.m in Sources */,
 				80A86A9D17314C2C000F70DA /* ViewController.m in Sources */,
+				80A86AAB17314CAC000F70DA /* InfiniteScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
